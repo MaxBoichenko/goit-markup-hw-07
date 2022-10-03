@@ -1,0 +1,21 @@
+.team {
+    background-color: var(--button-bg);
+}
+
+.team__title {
+    font-size: 36px;
+    line-height: calc(42 / 36);
+
+    margin-bottom: 50px;
+
+    text-align: center;
+
+    font-weight: 700;
+    color: var(--title-text-color);
+}
+
+.team__list {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}

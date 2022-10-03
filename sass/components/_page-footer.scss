@@ -1,0 +1,18 @@
+.page-footer {
+    background-color: var(--dark-bg);
+    padding: 60px 0;
+}
+
+.page-footer__list {
+    display: flex;
+    align-items: baseline;
+    gap: 70px;
+}
+
+.page-footer__info {
+    flex: 0 1 231px;
+}
+
+.page-footer__social-container {
+    margin-right: 23px;
+}
