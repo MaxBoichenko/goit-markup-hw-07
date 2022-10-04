@@ -1,7 +1,10 @@
 // ПЕРЕМЕННЫЕ
 @import './utils/variables';
 
-// СБРОС СТИЛЕЙ 
+//МЕДИА МИКСИН
+@import './utils/media-mixin';
+
+// СБРОС СТИЛЕЙ
 @import './base/modern-normalize';
 @import './base/reset';
 
@@ -11,26 +14,26 @@
 // ПАТТЕРНЫ
 @import './components/visually-hidden';
 @import './components/no-scroll';
+
 @import './components/is-hidden.scss';
 
 // КОНТЕЙНЕР ДРЯ ОГРАНИЧЕНИЯ ШИРИНЫ
 @import './components/container';
 
-// ОБЩИЕ БЛОКИ 
+// ОБЩИЕ БЛОКИ
 @import './components/section';
 @import './components/button';
 @import './components/social';
 @import './components/logo';
 @import './components/card';
 
-// СТРАНИЦА СТУДИЯ 
+// СТРАНИЦА СТУДИЯ
 // ХЕДЕР
 @import './components/page-header';
 @import './components/navigation';
 @import './components/contact';
 
 // МЕЙН
-@import './components/page-main';
 @import './components/hero';
 @import './components/benefits';
 @import './components/features';
@@ -41,16 +44,15 @@
 @import './components/page-footer';
 @import './components/info';
 @import './components/social-container';
- 
+
 // ЗАКОНЧИЛСЯ БЭМ !
 
 // СТРАНИЦА ПОТРФОЛИО
 @import './components/portfolio';
 
-
 //БэкДроп
 @import './components/backdrop';
-// ФОРМЫ 
+// ФОРМЫ
 // ФУТЕР ФОРМА
 @import './components/footer-form';
 
